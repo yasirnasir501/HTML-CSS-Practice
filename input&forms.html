@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Input & Forms</h1>
+    <!-- <form action="backend.php"> -->
+    <form action="">
+        <label for="firstname">Name</label>
+        <div>
+            <input type="text" name="name" id="firstname">
+        </div>
+
+        <label for="lastname">Last Name</label>
+        <div>
+            <input type="text" name="lastname" id="lastname">
+        </div>
+
+        <br>
+        Gender
+        <div>
+           <label for="male">Male<input type="radio" name="gender" id="male"> </label>
+            <label for="female">Female<input type="radio" name="gender" id="female" checked> </label>
+        </div>
+
+        <br>
+        Are You 18 Years Old?
+        <div>
+            <label for="yes">Yes
+                <input type="checkbox" name="yes" id="yes" value="1" checked>
+            </label>
+            <label for="no">No
+                <input type="checkbox" name="yes" id="no" value="1">
+            </label>
+        </div>
+
+        <br>
+        <label for="date">Date</label>
+        <div>
+            <input type="date" name="date" id="date">
+        </div>
+
+        <br>
+        <label for="email">Email</label>
+        <div>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <br>
+        <label for="number">Whatsapp Number</label>
+        <div>
+            <input type="number" name="number" id="number">
+        </div>
+
+        <br>
+        <label for="address">Address</label>
+        <div>
+            <textarea name="address" id="address"></textarea>
+        </div>
+
+        <br>
+        <input type="button" onclick="alert('You have given all the details exactly correctly')" value="Before Submit Read Me">
+        <br>
+        <br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
