@@ -1,0 +1,60 @@
+/* div + p{
+    color: aqua;
+    background-color: red;
+} */
+
+/* div > p{
+    color: rgb(0, 255, 21);
+    background-color: rgb(231, 212, 11);
+} */
+
+/* div ul li p{
+    color: #ffffff;
+    background-color: #e80000;
+} */
+
+form{
+    border: 2px solid red;
+    width: 50%;
+}
+
+input,button{
+    display: block;
+    margin: 24px 34px;
+}
+
+input[type='text']{
+    background-color: aqua;
+    font-size: 20px;
+}
+
+input[type='password']{
+    background-color: rgb(229, 204, 204);
+    font-size: larger;
+}
+
+button{
+    background-color: beige;
+    font-size: larger;
+}
+
+/* li:nth-child(2n+0){
+    color: red;
+} */
+
+/* li:nth-child(4){
+    color: red;
+    font-size: larger;
+    font-weight: bold;
+} */
+
+/* li:nth-child(odd){
+    color: red;
+    font-weight: bold;
+} */
+
+/* li:nth-child(even){
+    color: red;
+    font-weight: bold;
+} */
+
